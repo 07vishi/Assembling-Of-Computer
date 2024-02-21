@@ -1,0 +1,74 @@
+:root {
+    --background-dark: rgba(201, 199, 199, 0.733);
+    --background-light: #f0f0f0;
+    --text-dark: #0d0c0c;
+    --text-light: #333;
+    --nav-background-dark: #161615;
+    --nav-background-light: #f8f9fa;
+    --nav-text-dark: white;
+    --nav-text-light: #333;
+    --nav-hover-dark: #c0abab;
+    --nav-hover-light: #ddd;
+}
+
+body {
+padding: 25px;
+background-color: white;
+color: black;
+font-size: 25px;
+}
+
+.dark-mode {
+background-color: black;
+color: white;
+}
+
+
+
+
+body {
+    margin-left: 40px;
+    margin-right: 50px;
+    background-color:  rgba(241, 241, 241, 0.733);
+    color: #0d0c0c;
+}
+ 
+
+     
+
+
+
+
+
+  
+
+
+
+
+/* Navigation Menu Styles */
+ul.nav-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #161615;
+    overflow: hidden;
+}
+
+ul.nav-menu li {
+    float: left;
+}
+
+ul.nav-menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.nav-menu li a:hover {
+    background-color: #c0abab;
+    color: black;
+
+  }
+
